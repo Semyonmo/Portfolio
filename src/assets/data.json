@@ -1,0 +1,55 @@
+{
+  "menu": [
+    {
+      "text": "Главная",
+      "href": "#"
+    },
+    {
+      "text": "О Нас",
+      "href": "#"
+    },
+    {
+      "text": "Контакты",
+      "href": "#"
+    },
+    {
+      "text": "Портфолио",
+      "href": "#"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Название",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero.",
+      "img": "",
+      "href": "#"
+    }
+  ],
+  "works": [
+    {
+      "img": "/img/1.png",
+      "title": "Vk.com",
+      "description": "VKontakte (VK) is Europe's largest social networking website, with more than 100 million users."
+    },
+    {
+      "img":"/img/2.png",
+      "title": "Firebase.com",
+      "description": "Build realtime mobile and web apps in minutes using client-side code and our powerful API. Save time. Delight your users."
+    },
+    {
+      "img":"/img/3.png",
+      "title": "Stack Overflow",
+      "description": "Stack Overflow is a question and answer site for professional and enthusiast programmers. It's 100% free, no registration required. Take the 2-minute tour."
+    },
+    {
+      "img":"/img/4.png",
+      "title": "Black Desert",
+      "description": "В последний день уходящего года команда Black Desert спешит поздравить своих игроков с самыми светлыми и веселыми праздниками "
+    },
+    {
+      "img":"/img/5.png",
+      "title": "Krasview.ru",
+      "description": "Black Desert – это MMORPG, которая должна стать новым этапом в развитии игр подобного жанра."
+    }
+  ]
+}

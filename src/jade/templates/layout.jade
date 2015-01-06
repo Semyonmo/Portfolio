@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+html(lang="en")
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1")
+	title DEVELOPMENT TITLE
+	link(rel="stylesheet", href="/bower_components/semantic/dist/semantic.min.css")
+	link(rel="stylesheet", href="/css/style.css")
+body(ng-app="app")
+	nav.menu
+		.ui.page.grid
+
+				.column
+					h1 Semyon Morozov | Portfolio
+
+	section.app-header#header
+		.ui.page.grid
+			.column
+				h1.app-header-title Front-End
+					br
+					span Developer
+				//.app-header-social
+				//	.ui.circular.facebook.icon.huge.button
+				//		i.facebook.icon
+				//	.ui.circular.twitter.icon.huge.button
+				//		i.twitter.icon
+				//	.ui.circular.google.plus.icon.huge.button
+				//		i.google.plus.icon
+				//	.ui.circular.vk.icon.huge.button
+				//		i.vk.icon
+
+	//section.works(ng-controller="WorksController as works")
+	//	.ui.page.grid
+	//		.column(ng-repeat="item in works.works")
+	//			a {{item.title}}
+
+	//.ui.icon.message
+	//	i.notched.circle.loading.icon
+	//	.content
+	//		.header
+	//			Just Одну секнду
+	//			p Мы загружаем страницу
+
+	section.works
+		.ui.doubling.two.column.page.grid
+
+			each work in works
+				.column
+					.work
+						//a.ui.right.red.corner.label
+						//	i.heart.icon
+						//.ui.active.dimmer
+						//	.ui.large.text.loader Загрузка
+
+
+						.work-img-wrapper.ui.two.column.middle.aligned.relaxed.fitted.grid
+
+							img.work-img(src='#{work.img}')
+
+						.work-skrew
+							.work-social
+								.ui.circular.facebook.icon.button
+									i.facebook.icon
+								.ui.circular.twitter.icon.button
+									i.twitter.icon
+								.ui.circular.google.plus.icon.button
+									i.google.plus.icon
+								.ui.circular.vk.icon.button
+									i.vk.icon
+						.dark-layer
+						work-header.work-header
+							h3.work-title #{work.title}
+							p.work-description #{work.description}
+							.work-header-after
+
+
+
+
+
+
+
+
+
+	script(src="/bower_components/jquery/dist/jquery.min.js")
+	script(src="/bower_components/semantic/dist/semantic.min.js")
+	script(src="/bower_components/angular/angular.min.js")
+	script(src="/bower_components/angular-route/angular-route.min.js")
+	script(src="/bower_components/firebase/firebase.js")
+	script(src="/bower_components/particles.js/particles.min.js")
+	script(src="/js/app.js")
