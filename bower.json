@@ -1,10 +1,9 @@
 {
-  "name": "gulp superpower boilerplate",
+  "name": "Portfolio",
   "version": "0.0.0",
   "authors": [
     "JSemyonom <JSemyonom@gmail.com>"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

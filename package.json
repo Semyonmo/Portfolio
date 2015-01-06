@@ -1,10 +1,9 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "Portfolio jsemyonom@gmail.com",
   "version": "0.9.1",
-  "description": "gulp based boilerplate for development with superpower",
+  "description": "public portfolio",
   "main": "gulpfile.js",
   "author": "JSemyonom@gmail.com",
-  "license": "MIT",
   "dependencies": {
     "browser-sync": "^1.8.2",
     "browserify": "^8.0.2",
